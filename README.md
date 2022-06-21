@@ -1,3 +1,6 @@
+# NOTE
+There is no code checked in yet.
+
 # ImGui Style System
 
 IGSS is a style system for ImGui. It supports parent styles and a versatile element coloring system.
