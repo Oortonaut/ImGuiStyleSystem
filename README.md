@@ -1,11 +1,8 @@
-# Walnut
+# ImGui Style System
 
-Walnut is a simple application framework built with Dear ImGui and designed to be used with Vulkan - basically this means you can seemlessly blend real-time Vulkan rendering with a great UI library to build desktop applications. The plan is to expand Walnut to include common utilities to make immediate-mode desktop apps and simple Vulkan applications.
+IGSS is a style system for ImGui. It supports parent styles and a versatile element coloring system.
 
-Currently supports Windows - with macOS and Linux support planned. Setup scripts support Visual Studio 2022 by default.
-
-![WalnutExample](https://hazelengine.com/images/ForestLauncherScreenshot.jpg)
-_<center>Forest Launcher - an application made with Walnut</center>_
+IGSS is based on [Walnut](https://github.com/TheCherno/Walnut) and has the same build requirements, essentially Vulkan and Visual Studio. The created styles can be used on any platform.
 
 ## Requirements
 - [Visual Studio 2022](https://visualstudio.com) (not strictly required, however included setup scripts only support this)
@@ -21,4 +18,4 @@ Once you've cloned, run `scripts/Setup.bat` to generate Visual Studio 2022 solut
 - [GLM](https://github.com/g-truc/glm) (included for convenience)
 
 ### Additional
-- Walnut uses the [Roboto](https://fonts.google.com/specimen/Roboto) font ([Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0))
+- Walnut (and IGSS) uses the [Roboto](https://fonts.google.com/specimen/Roboto) font ([Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0))
